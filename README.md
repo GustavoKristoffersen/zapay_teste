@@ -4,12 +4,12 @@ Confira as instruções da atividade no arquivo "Instruções.pdf"
 
 ### Iniciar o projeto
 
---->> python main.py <info_to_check> <vehicle_plate> <vehicle_renavam>
+--->> python main.py <debt_option> <license_plate> <renavam>
 
 Onde:
 
 
-info_to_check = Informação a ser retornada, sendo:
+debt_option = Informação a ser retornada, sendo:
 
 
        
@@ -25,9 +25,9 @@ info_to_check = Informação a ser retornada, sendo:
        
        
        
-vehicle_plate = Placa do carro, exemplo: "ABC1234" ou "ABC1C34"
+license_plate = Placa do carro, exemplo: "ABC1234" ou "ABC1C34"
 
-vehicle_renavam = Renavam do veículo, exemplo: "11111111111"
+renavam = Código renavam do veículo, exemplo: "11111111111"
 
 Para testar, execute:
 
