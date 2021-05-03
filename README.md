@@ -29,11 +29,13 @@ license_plate = Placa do veículo, exemplo: "ABC1234"(formado padrão) ou "ABC1C
 
 renavam = Código renavam do veículo, exemplo: "11111111111"
 
-Para testar, execute:
+Para fins de teste da atividade, execute:
 
       python main.py all ABC1234 11111111111
       
       python main.py all ABC1C34 11111111111
+      
+      python main.py licensing ABC1C34 11111111111
 
 
 
