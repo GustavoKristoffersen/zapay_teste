@@ -4,7 +4,7 @@ Confira as instruções da atividade no arquivo "Instruções.pdf"
 
 ### Iniciar o projeto
 
---->> python main.py <debt_option> <license_plate> <renavam>
+--->> python main.py < debt_option > < license_plate > < renavam >
 
 Onde:
 
