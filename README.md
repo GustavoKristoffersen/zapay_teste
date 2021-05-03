@@ -25,7 +25,7 @@ debt_option = Informação a ser retornada, sendo:
        
        
        
-license_plate = Placa do carro, exemplo: "ABC1234" ou "ABC1C34"
+license_plate = Placa do veículo, exemplo: "ABC1234" ou "ABC1C34"
 
 renavam = Código renavam do veículo, exemplo: "11111111111"
 
