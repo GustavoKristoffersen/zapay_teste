@@ -1,6 +1,5 @@
 from service import SPService
 from sp_parser import SPParser
-import pytest
 
 #<----------------------- SERVICE TESTS ---------------------------------->
 
