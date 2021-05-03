@@ -15,17 +15,17 @@ debt_option = Informação a ser retornada, sendo:
        
        "ticket" - Multas do veículo
        
-       "ipva" - IPVAs do veículo
+       "ipva" - Taxas de IPVA do veículo
        
-       "dpvat" - DPVATs do veículo
+       "dpvat" - Taxas de DPVAT do veículo
        
-       "licensing" - Licenciamento do veículo
+       "licensing" - Taxas de licenciamento do veículo
        
-       "all" - Tudo relacionado ao veículo
+       "all" - Todas as taxas relacionadas ao veículo
        
        
        
-license_plate = Placa do veículo, exemplo: "ABC1234" ou "ABC1C34"
+license_plate = Placa do veículo, exemplo: "ABC1234"(formado padrão) ou "ABC1C34"(formado Mercosul)
 
 renavam = Código renavam do veículo, exemplo: "11111111111"
 
