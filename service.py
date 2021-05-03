@@ -14,11 +14,11 @@ class SPService:
         self.params = kwargs
 
         # Converte a placa para o modelo padrão, caso esteja no modelo Mercosul.
-        with open("mercosul_plate_convertion.json", "r") as mp:
-            plate_char = self.params["license_plate"][4]
-            mp = json.loads(mp.read())
+        plate_char = self.params["license_plate"][4]
 
-            if plate_char.isalpha():
+        if plate_char.isalpha():
+            with open("mercosul_plate_convertion.json", "r") as mp:
+                mp = json.loads(mp.read())
                 converted_num = mp[plate_char]
                 self.params["license_plate"] = f"{self.params['license_plate'][:4]}{converted_num}{self.params['license_plate'][5:]}"
 
