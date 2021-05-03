@@ -1,6 +1,6 @@
 # zapay_teste
 
-Confira as instruções no arquivo "Instruções.pdf"
+Confira as instruções da atividade no arquivo "Instruções.pdf"
 
 ### Iniciar o projeto
 
@@ -29,8 +29,16 @@ vehicle_plate = Placa do carro, exemplo: "ABC1234" ou "ABC1C34"
 
 vehicle_renavam = Renavam do veículo, exemplo: "11111111111"
 
-Para teste, execute:
+Para testar, execute:
 
       python main.py all ABC1234 11111111111
       
       python main.py all ABC1C34 11111111111
+
+
+
+### Testes
+
+Para executar os testes, execute, na raíz do projeto:
+
+              pytest tests.py
