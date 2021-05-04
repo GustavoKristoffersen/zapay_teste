@@ -1,6 +1,5 @@
 from service import SPService
 from sp_parser import SPParser
-import pytest
 
 #<----------------------- SERVICE TESTS ---------------------------------->
 
@@ -10,10 +9,10 @@ def test_service_with_paramater_all_should_return_all_api_items_available():
     )
     response = service.debt_search()
     assert len(response) == 4
-    assert response['Multas']
-    assert response['IPVAs']
-    assert response['DPVATs']
-    assert response['Licenciamento']
+    assert response['Multas'] is not None
+    assert response['IPVAs'] is not None
+    assert response['DPVATs'] is not None
+    assert response['Licenciamento'] is not None
 
 def test_service_with_mercosul_plate_should_succeed():
     service = SPService(
@@ -21,10 +20,10 @@ def test_service_with_mercosul_plate_should_succeed():
     )
     response = service.debt_search()
     assert len(response) == 4
-    assert response['Multas']
-    assert response['IPVAs']
-    assert response['DPVATs']
-    assert response['Licenciamento']
+    assert response['Multas'] is not None
+    assert response['IPVAs'] is not None
+    assert response['DPVATs'] is not None
+    assert response['Licenciamento'] is not None
 
 def test_service_with_mercosul_plate_should_have_the_same_values_as_standard_plate():
     service_mercosul = SPService(
