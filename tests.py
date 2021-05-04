@@ -105,7 +105,4 @@ def test_ipva_parser_values_should_succeed():
     assert response[0].get('type')
     assert response[0].get('year')
     assert response[0].get('year') == result.get('IPVAs').get('IPVA')[0].get('Exercicio')
-
-
-    
     
